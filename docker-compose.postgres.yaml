@@ -1,0 +1,11 @@
+services:
+  postgres:
+    container_name: postgresql-db2
+    build: .
+    environment:
+      POSTGRES_USER: "default"
+      POSTGRES_PASSWORD: "secret"
+      POSTGRES_DB: "db2"
+    ports:
+      - "5432:5432"
+    restart: unless-stopped

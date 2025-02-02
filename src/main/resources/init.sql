@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS tb_users(
+    id SERIAL PRIMARY KEY,
+    username VARCHAR NOT NULL UNIQUE
+);
