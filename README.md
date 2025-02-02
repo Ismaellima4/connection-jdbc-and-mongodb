@@ -30,5 +30,3 @@ docker-compose -f docker-compose.postgres.yaml up -d
 
 ```bash
 docker-compose -f docker-compose.mongodb.yaml up -d
-``
-
